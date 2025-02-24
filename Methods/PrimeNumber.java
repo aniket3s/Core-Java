@@ -20,11 +20,7 @@ class PrimeNumber
 			}
 			den++;
 		}
-		if (num==den)
-		{
-			System.out.println(num +" is Prime Number.");
-		}else{
-			System.out.println(num +" is not a prime Number.");
-		}
+		if (num==den) System.out.println(num +" is Prime Number.");
+		else System.out.println(num +" is not a prime Number.");
 	}
 }
