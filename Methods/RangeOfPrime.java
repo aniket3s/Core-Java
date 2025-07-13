@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+// range of prime
 class RangeOfPrime{
 	public static void main(String[] args)
 	{
@@ -14,6 +16,7 @@ class RangeOfPrime{
 			}
 		}
 	}
+	
 	public static boolean isPrime(int num){
 		int den = 2;
 		while (den<num)
